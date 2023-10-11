@@ -30,3 +30,20 @@ body {
 .image img {
     height: 90%;
 }
+
+.mainContent {
+    padding: 10px;
+  color: white;
+  background-image: url(https://images.teamtailor-cdn.com/images/s3/teamtailor-production/user_picture_800-v9/image_uploads/2585139f-ac9b-4326-9d3f-ca810c822aa7/original.png);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 100px 0px;
+}
