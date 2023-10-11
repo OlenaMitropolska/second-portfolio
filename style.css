@@ -31,7 +31,7 @@ body {
     height: 90%;
 }
 main {
-    height: 600px;
+    height: 80%;
 }
 .mainContent {
     padding: 10px;
@@ -71,4 +71,23 @@ footer {
     font-size: 1.5em;
     color: rgb(241, 233, 150);
     
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: 1.5em;
+    }
+    main {
+      display: flex;
+      flex-direction: row;
+      
+    }
+.mainContent {
+width: 50%;
+}    
+.description {
+width: 50%;
+height: 100%;
+flex-direction: column;
+}
 }
